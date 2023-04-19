@@ -1,0 +1,61 @@
+body {
+    font-family: Arial;
+}
+
+#header {
+    color: #595651;
+    background: #595651;
+    height: 51px;
+}
+
+#header .logo {
+    width: 350px;
+    margin-top: -12px;
+    float: left;
+}
+
+#header h1 {
+    color: #ffffff;
+}
+
+#footer {
+    color: #595651;
+    background: #595651;
+    height: 120px;
+}
+
+#footer-brand {
+    margin-top: 20px;
+}
+
+h1, h2, h3 {
+    color: #595651;
+}
+
+.btn-primary {
+    background-color: #fc4c02;
+    border-color:  #fc4c02;
+}
+
+.btn-primary:hover {
+    background-color: #f04000;
+    border-color:  #f04000;
+}
+
+#navigation {
+    height: 51px;
+}
+
+.nav {
+    height: 51px;
+    margin-top: -12px;
+}
+
+.navbar {
+    text-transform: uppercase;
+    background: #f5f5f5;
+}
+
+.navbar a {
+    color: #595651;
+}
