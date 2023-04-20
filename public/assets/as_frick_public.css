@@ -1,5 +1,7 @@
 body {
     font-family: Arial;
+    font-size: 17px;
+    line-height: 1.5;
 }
 
 #header {
@@ -19,17 +21,40 @@ body {
 }
 
 #footer {
-    color: #595651;
-    background: #595651;
-    height: 120px;
+    color: #d0cec9;
+    background: #3d3935;
+    height: 132px;
+    font-size: 17px;
+}
+
+#footer-mail a {
+    color: #d0cec9;
+}
+
+.footer-contact {
+    margin-top: 42px;
+    float: right;
 }
 
 #footer-brand {
-    margin-top: 20px;
+    margin-top: 30px;
+    margin-left: -12px;
 }
 
 h1, h2, h3 {
     color: #595651;
+}
+
+h2 {
+    font-size: 23px;
+    font-weight: bold;
+    color: #757575;
+}
+
+h3 {
+    font-size: 21px;
+    font-weight: bold;
+    color: #757575;
 }
 
 .btn-primary {
@@ -57,5 +82,5 @@ h1, h2, h3 {
 }
 
 .navbar a {
-    color: #595651;
+    color: #595651 !important;
 }

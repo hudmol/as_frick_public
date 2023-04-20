@@ -1,10 +1,37 @@
 en:
   classification:
-    _plural: Browse by Topic
+    _plural: Collection Categories
   brand:
     title: ""
     title_link_text: ""
     welcome_head: WELCOME TO THE FRICK COLLECTION ARCHIVES
-    welcome_message: ""
+    welcome_message: 
+                     <div class="row">
+                       <div class="col-md-8">
+                         <h3>About this Site</h3>
+                         <p>The Archives' mission is to document, preserve, and make available historical
+                         records of The Frick Collection and Frick Art Reference Library, personal
+                         papers of the Frick family, and archival collections in the areas of art
+                         history, scholarship, and collecting.  This site allows users to search and
+                         browse our finding aids, which are descriptive inventories of archival collections.</p>
 
+                         <p>To explore our finding aids, enter your search term(s) in the box above, or
+                         browse by title, subject, name, or collection category using the navigation bar.
+                         Terms may be truncated using an asterisk (e.g. photo* searches for photo/s,
+                         photograph/s, and photography), and additional terms can be added to your search
+                         by clicking the "+" icon.</p>
 
+                         <p>For digitized archival materials, please visit
+                         <a href="https://digitalcollections.frick.org/digico/#/archive/Archives/">Frick Digital Collections</a>.</p>
+                       </div>
+                       <div class="col-md-4">
+                         <h3>Requesting Materials</h3>
+                         <p>Archival materials may be used in the
+                         <a href="https://www.frick.org/visit/library">Reading Room of the Library</a>
+                         by appointment.
+                         Researchers are required to register as readers at the Library and complete an
+                         Application for Access to the Archives.
+                         Please contact <a href="mailto:archives@frick.org">archives@frick.org</a> for more
+                         information or to request an appointment.</p>
+                       </div>
+                     </div>
