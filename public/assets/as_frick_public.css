@@ -2,6 +2,24 @@ body {
     font-family: Arial;
     font-size: 17px;
     line-height: 1.5;
+    color: #757575;
+}
+
+a:link {
+    color: #757575;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration-color: #fc4c02;
+}
+
+a:visited {
+    color: #757575;
+}
+
+a:active {
+    color: #757575;
 }
 
 #header {
@@ -81,6 +99,32 @@ h3 {
     background: #f5f5f5;
 }
 
+#navigation {
+    margin-bottom: 8px;
+}
+
 .navbar a {
     color: #595651 !important;
+}
+
+.tabbing.nav-pills > li > a {
+    background: #ffffff;
+    text-decoration: underline;
+}
+
+.tabbing.nav-pills > li > a.active {
+    background: #ffffff;
+    text-decoration: underline overline;
+}
+
+.tabbing.nav-pills > li > a:hover {
+    text-decoration-color: #fc4c02;
+}
+
+button.collection, button.resource, button.digital_object, button.subject, button.accession, button.agent, button.classification {
+    color: #fc4c02;
+}
+
+.record-type-badge {
+    color: #fc4c02 !important;
 }
