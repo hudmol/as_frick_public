@@ -6,20 +6,25 @@ body {
 }
 
 a:link {
-    color: #757575;
+    color: #757575 !important;
     text-decoration: underline;
 }
 
 a:hover {
-    text-decoration-color: #fc4c02;
+    text-decoration-color: #fc4c02 !important;
 }
 
 a:visited {
-    color: #757575;
+    color: #757575 !important;
 }
 
 a:active {
-    color: #757575;
+    color: #757575 !important;
+}
+
+li.active > a {
+    background: #eee !important;
+    border: solid 1px #757575 !important;
 }
 
 #header {
@@ -110,11 +115,11 @@ h3 {
 .tabbing.nav-pills > li > a {
     background: #ffffff;
     text-decoration: underline;
+    border: solid 1px #f5f5f5;
 }
 
 .tabbing.nav-pills > li > a.active {
-    background: #ffffff;
-    text-decoration: underline overline;
+    background: #f5f5f5;
 }
 
 .tabbing.nav-pills > li > a:hover {
@@ -127,4 +132,10 @@ button.collection, button.resource, button.digital_object, button.subject, butto
 
 .record-type-badge {
     color: #fc4c02 !important;
+}
+
+div.acc_holder > a {
+    color: #ffffff !important;
+    background: #fc4c02 !important;
+    border: solid 1px #fc4c02 !important;
 }
